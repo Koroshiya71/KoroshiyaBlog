@@ -102,7 +102,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <body>
     
 
-<header id="l_header" class="l_header always shadow blur show"  >
+<header id="l_header" class="l_header always shadow blur "  >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -321,7 +321,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="l_cover">
   
     
-        <div id="full" class='cover-wrapper friends dock' style="display: none;">
+        <div id="half" class='cover-wrapper friends dock' style="display: ;">
           
             <div class='cover-bg lazyload placeholder' data-bg="https://tvax2.sinaimg.cn/large/007CzvoTgy1gqgnl1u9q7j33uw1lwx6y.jpg"></div>
           
@@ -340,11 +340,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class='list-h'>
         
           
-            <a href="/v4/getting-started/"
+            <a href="/drinkingMenu/"
               
               
-              id="v4getting-started">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg'><p>文档</p>
+              id="drinkingMenu">
+              <img src='https://koroshiya-image-host.oss-cn-shenzhen.aliyuncs.com/cocktails.png'><p>酒单</p>
             </a>
           
             <a href="/faqs/"
@@ -579,14 +579,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   // header 这里无论是否开启pjax都需要
   var l_header=document.getElementById("l_header");
   
-  l_header.classList.add("show");
+  l_header.classList.remove("show");
   
   
     // cover
     var cover_wrapper=document.querySelector('.cover-wrapper');
     
-    cover_wrapper.id="none";
-    cover_wrapper.style.display="none";
+    cover_wrapper.id="half";
+    cover_wrapper.style.display="";
     
   
 </script>
@@ -935,6 +935,26 @@ var loadCSS = function( href, before, media, attributes ){
           <hr>
         
       
+        
+      
+        
+          <hr>
+        
+      
+        
+          
+    <li>
+      <a class='vlts-menu fix-cursor-default ' href=https://gitee.com/koroshiya/Blog-Friends/issues
+        
+        
+        
+        
+          id="https:giteecomkoroshiyaBlog-Friendsissues"
+        >
+        <i class='fas fa-user-friends fa-fw'></i> 友链Issues
+      </a>
+    </li>
+  
         
       
     </ul>
