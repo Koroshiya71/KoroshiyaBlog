@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Koroshiya's Club
+title: Koroshiya Official
 subtitle: ''
 description: ''
 keywords:
@@ -98,6 +98,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: volantis
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

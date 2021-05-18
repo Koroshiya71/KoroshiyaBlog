@@ -7,16 +7,22 @@ sidebar: []
 valine:
   placeholder: 有什么想对我说的呢？
 ---
-<div align="center">
- <img src="https://koroshiya-image-host.oss-cn-shenzhen.aliyuncs.com/cherry%20blossom2.png" width = "300" height = "300" alt="Koroshiya" align=center />
-</div>
 
-## <center> Koroshiya（博客主）</center>
+{% noteblock  %}
 
-<center>有关酒、游戏、音乐，以及一切</center>
+{% p center h1 cyan, Koroshiya %}
 
-## 关于我
+{% image https://koroshiya-image-host.oss-cn-shenzhen.aliyuncs.com/cherry%20blossom2.png, width=300px %}
+{% p center h2 cyan, 有关酒、游戏、音乐，以及一切 %}
 
+{% folding yellow, 关于本站 %}
+
+建站初衷是由于我近期在做一款东方project同人卡牌构筑Roguelike游戏，打算租个服务器建个站来做发布页，写写开发日志之类的
+由于我个人平时就很喜欢写一些杂谈，因此决定不如建个博客，除了开发日志之外，也分享一些读书随记、日常感想和一些关于酒、音乐、游戏以及一切的个人杂谈
+
+{% endfolding %}
+
+{% folding yellow, 关于我 %}
 游戏设计专业在读大学生
 车万人，深度ACG爱好者
 喜欢三国、克苏鲁神话、日式美学、武士文化以及塔罗牌
@@ -50,8 +56,6 @@ valine:
 曾经在一些论坛上写过一段时间乐推和乐评，但现在乐理知识实在是忘得一干二净，可能会重拾起来，写点音乐杂谈
 
 ***
+{% endfolding %}
 
-## 关于本站
-
-建站初衷是由于我近期在做一款东方project同人卡牌构筑Roguelike游戏，打算租个服务器建个站来做发布页，写写开发日志之类的
-由于我个人平时就很喜欢写一些杂谈，因此决定不如建个博客，除了开发日志之外，也分享一些读书随记、日常感想和一些关于酒、音乐、游戏以及一切的个人杂谈
+{% endnoteblock %}
