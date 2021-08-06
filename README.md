@@ -4,4 +4,5 @@
 
 ![20210518113159](https://koroshiya-image-host.oss-cn-shenzhen.aliyuncs.com/20210518113159.png)
 
+作者博客地址：Koroshiya.club
 友链Issue地址（暂时爆炸，原因未知）: <https://gitee.com/koroshiya/Blog-Friends/issues>
